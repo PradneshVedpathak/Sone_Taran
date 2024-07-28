@@ -1,0 +1,110 @@
+.card-container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width: 1024px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.custom-card {
+    height: 605px;
+    overflow: hidden;
+    background: transparent;
+    box-shadow: none !important;
+}
+
+.custom-card mat-card-title {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: black;
+}
+
+.date {
+
+    margin-top: -25px;
+    font-weight: bold;
+    float: right;
+}
+
+.transactionCard {
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    height: 17%;
+    width: 94%;
+}
+
+.transactionCard mat-card-header {
+    color: black;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.transactionCardContent p {
+    color: black;
+    font-size: larger;
+    margin-top: 8px;
+    float: left;
+}
+
+.transactionCardContent small {
+    font-weight: 500;
+    font-size: small;
+    color: black;
+    float: right;
+}
+
+mat-icon {
+    color: #FFD500;
+    float: right;
+    margin: 3px;
+}
+
+.mainShortcutCard {
+    background: transparent;
+    height: 45%;
+    box-shadow: none !important;
+}
+
+
+.shortcutCard {
+    margin-top: 15px;
+    height: 15%;
+    justify-content: center;
+    font-weight: 550;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reportCard {
+    margin-top: 20px;
+    background: transparent;
+    height: 45%;
+    box-shadow: none !important;
+}
+
+
+.report {
+    margin-top: 15px;
+    height: 20%;
+    justify-content: center;
+    font-weight: 550;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}

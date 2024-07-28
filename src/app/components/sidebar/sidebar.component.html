@@ -1,0 +1,29 @@
+<mat-sidenav-container>
+    <mat-sidenav mode="side" opened>
+        <button mat-button class="menu-button" [routerLink]="['/']" routerLinkActive="router-link-active"
+            style="color: #FFD500;">
+            <mat-icon>dashboard</mat-icon>Dashboard
+        </button>
+        <button mat-button class="menu-button" [routerLink]="['/dues']" style="color: #FFD500;">
+            <mat-icon>book</mat-icon>Dues
+        </button>
+        <button mat-button class="menu-button" [routerLink]="['/customers']" style="color: #FFD500;">
+            <mat-icon>persons</mat-icon>Customers
+        </button>
+        <button mat-button class="menu-button" [routerLink]="['/profile']" style="color: #FFD500;">
+            <mat-icon>info</mat-icon>Profile
+        </button>
+        <button mat-button class="menu-button" [routerLink]="['/settings']" style="color: #FFD500;">
+            <mat-icon>settings</mat-icon>Settings
+        </button>
+        <button mat-button class="menu-button" [routerLink]="['/addLoan']" style="color: #FFD500;">
+            <mat-icon>add</mat-icon>Add Loan
+        </button>
+        <button mat-button class="menu-button" [routerLink]="['/transaction']" style="color: #FFD500;">
+            <mat-icon>money</mat-icon>Transaction
+        </button>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="content mat-elevation-z4"><router-outlet></router-outlet></div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

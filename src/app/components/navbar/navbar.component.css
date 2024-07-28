@@ -1,0 +1,45 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 130%;
+    margin-left: 2.5%;
+    color: #FFFCF0;
+}
+
+.personIcon {
+    color: #FFD500;
+    background-color: #FFFCF0;
+    margin-left: 1%;
+
+}
+
+.notiIcon {
+    color: #FFD500;
+    background-color: #FFFCF0;
+
+}
+
+mat-toolbar {
+    background-color: #FFD500;
+}
+
+.hamburger-button {
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    .example-spacer,
+    .notiIcon,
+    .personIcon {
+        display: none;
+    }
+
+    .hamburger-button {
+        display: inline-flex;
+    }
+}
