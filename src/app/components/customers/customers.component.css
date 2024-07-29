@@ -1,0 +1,45 @@
+app-customer-chart {}
+
+.customersList {
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+
+.totalCustomerCard {
+    margin-top: 2%;
+    height: 17%;
+    width: 20%;
+    margin-left: 2%;
+    float: right;
+}
+
+.totalCustomerCard mat-card-header {
+    font-size: large;
+    font-weight: 500;
+}
+
+.totalCustomerCard mat-card-content {
+    margin-top: 10%;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.addCustomerCard {
+    margin-top: 2%;
+    height: 17%;
+    width: 20%;
+    margin-left: 2%;
+    float: right;
+}
+
+.addCustomerCard mat-card-header {
+    font-size: large;
+    font-weight: 500;
+}
+
+.addCustomerCard mat-card-content {
+    margin-top: 10%;
+    font-weight: 600;
+    font-size: xx-large;
+}
